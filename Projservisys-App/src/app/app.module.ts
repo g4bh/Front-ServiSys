@@ -18,6 +18,8 @@ import { OrdensServicoComponent } from './pages/CPD/ordens-servico/ordens-servic
 import { ModalCpdComponent } from './components/cpd/modal-cpd/modal-cpd.component';
 import { ModalCoordComponent } from './components/coordenador/modal-coord/modal-coord.component';
 import { ModalSolicitanteComponent } from './components/Solicitante/modal-solicitante/modal-solicitante.component';
+import { AddUsuarioComponent } from './pages/administrador/add-usuario/add-usuario.component';
+import { NavAdmComponent } from './components/administrador/nav-adm/nav-adm.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { ModalSolicitanteComponent } from './components/Solicitante/modal-solici
     OrdensServicoComponent,
     ModalCpdComponent,
     ModalCoordComponent,
-    ModalSolicitanteComponent
+    ModalSolicitanteComponent,
+    AddUsuarioComponent,
+    NavAdmComponent
   ],
   imports: [
     BrowserModule,

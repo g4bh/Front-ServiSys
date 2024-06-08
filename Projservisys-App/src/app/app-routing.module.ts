@@ -11,6 +11,7 @@ import { AprovacoesPendentesComponent } from './pages/coordenador/aprovacoes-pen
 import { SuasAprovacoesComponent } from './pages/coordenador/suas-aprovacoes/suas-aprovacoes.component';
 import { PaginaInicialCpdComponent } from './pages/CPD/pagina-inicial-cpd/pagina-inicial-cpd.component';
 import { OrdensServicoComponent } from './pages/CPD/ordens-servico/ordens-servico.component';
+import { AddUsuarioComponent } from './pages/administrador/add-usuario/add-usuario.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'aprovacoes-pendentes', component: AprovacoesPendentesComponent, data: { title: 'Aprovações pendentes' } },
   { path: 'suas-aprovacoes', component: SuasAprovacoesComponent, data: { title: 'Suas aprovações' } },
   { path: 'home/cpd', component: PaginaInicialCpdComponent },
-  { path: 'ordens-servico', component: OrdensServicoComponent, data: { title: 'Ordens de sevriço' } }
+  { path: 'ordens-servico', component: OrdensServicoComponent, data: { title: 'Ordens de sevriço' } },
+  { path: 'area-adm', component: AddUsuarioComponent }
 ];
 
 @NgModule({

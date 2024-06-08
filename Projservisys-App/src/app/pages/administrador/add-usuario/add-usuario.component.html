@@ -1,0 +1,58 @@
+<app-nav-adm></app-nav-adm>
+
+<div class="container-custom">
+    <div class="content-title">
+        <p>Preencha abaixo as informações para requisitar a ordem de serviço:</p>
+    </div>
+  
+    <div class="form-content">
+    <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <label for="exampleFormControlInput1" class="form-label">Primeiro nome do usuário</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <label for="exampleFormControlInput1" class="form-label">Último nome do usuário</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <label for="exampleFormControlInput1" class="form-label">Email do usuário</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+      </div>
+
+    <div class="row g-2 mt-4">
+        <div class="col-md">
+            <label for="exampleFormControlInput1" class="form-label">Nível do usuário</label>
+            <select class="form-select" class="form-control" aria-label="Default select example">
+                <option selected>Selecione um nível</option>
+                <option value="1">Solicitante</option>
+                <option value="2">Coordenador de T.I.</option>
+                <option value="3">Técnico de T.I.</option>
+              </select>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <label for="exampleFormControlInput1" class="form-label">Cargo do usuário</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex.:Professor">
+          </div>
+        </div>
+      </div>
+    
+      <label for="inputPassword5" class="form-label mt-4">Senha</label>
+      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+      <div id="passwordHelpBlock" class="form-text">
+        Sua senha deve ter de 8 a 20 caracteres, conter letras e números e não deve conter espaços, caracteres especiais ou emojis.
+      </div>
+    
+      <div class="d-flex justify-content-end mt-4">
+        <button type="button" class="btn btn-success btn-cadastrar"> Cadastrar<i class="bi bi-check ml-2"></i></button>
+      </div>
+    </div>
+
+</div>
