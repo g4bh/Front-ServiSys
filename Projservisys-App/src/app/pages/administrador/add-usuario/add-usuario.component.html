@@ -21,9 +21,23 @@
         </div>
       </div>
 
+      <div class="row g-2 mt-4">
+        <div class="col-md">
+          <div class="form-floating">
+            <label for="exampleFormControlInput1" class="form-label">Email do usuário</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <label for="exampleFormControlInput1" class="form-label">Nick do usuário (username)</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+        </div>
+      </div>
+
       <div class="mt-4">
-        <label for="exampleFormControlInput1" class="form-label">Email do usuário</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        
       </div>
 
     <div class="row g-2 mt-4">
@@ -39,7 +53,17 @@
         <div class="col-md">
           <div class="form-floating">
             <label for="exampleFormControlInput1" class="form-label">Cargo do usuário</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex.:Professor">
+            <!-- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex.:Professor"> -->
+            <select class="form-select" class="form-control" aria-label="Default select example">
+                <option selected>Selecione o cargo</option>
+                <option value="1">Diretor</option>
+                <option value="2">Coordenador</option>
+                <option value="3">Professor</option>
+                <option value="3">Secretaria</option>
+                <option value="3">Orientador Educacional</option>
+                <option value="3">Técnico de Informática</option>
+                <option value="3">Coordenador de T.I.</option>
+              </select>
           </div>
         </div>
       </div>
